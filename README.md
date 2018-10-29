@@ -11,8 +11,7 @@
 <li>create a javascript file call api_key.js in the components folder</li>
 <li>store your api key as a const and name it API_KEY in the api_key.js folder</li>
 <li> at the bottom of api_key.js write <code>export default API_KEY;</code></li>
+<li><code>npm install</code></li>
+<li><code>>npm start</code></li>
 </ul>
-<p><pre><code>> npm install</code></pre>
-<pre><code>> npm start</code></pre>
-
 <p>Default host is localhost:8080</p>
