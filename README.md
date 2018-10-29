@@ -15,9 +15,10 @@
 
 <li> at the bottom of api_key.js write <code>export default API_KEY;<code></li>
 
-<li><code>npm install</code></li>
-
-<li><code>npm start</code></li>
 </ul>
+
+<pre><code>> npm install</code></pre>
+
+<pre><code>> npm start</code></pre>
 
 <p>Default host is localhost:8080</p>
