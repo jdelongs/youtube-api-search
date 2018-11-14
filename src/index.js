@@ -35,6 +35,7 @@ class App extends Component {
             <div>
                 <SearchBar />
                 <VideoDetail video={this.state.selectedVideo} />
+                {/* passing property onVideoSelect to VideoList */}
                 <VideoList
                     onVideoSelect={selectedVideo => this.setState({selectedVideo})} 
                     videos={this.state.videos} />
