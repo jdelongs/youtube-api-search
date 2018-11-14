@@ -33,6 +33,7 @@ class App extends Component {
                 videos: videos, 
                 selectedVideo: videos[0]
             }); 
+            console.log(videos); 
         }); 
     }
 

@@ -25,3 +25,13 @@
 .list-group-item:hover {
     background-color: #eee; 
 }
+
+.video-title::before {
+    content: "Title: "; 
+    font-weight: bold; 
+}
+
+.video-description::before {
+    content: "Desciption: "; 
+    font-weight: bold; 
+}
