@@ -22,7 +22,7 @@ class SearchBar extends Component {
         );
     }
 
-
+    /*sets the state and has a call back function */ 
     onInputChange(term) {
         this.setState({term}); 
         this.props.onSearchTermChange(term); 
